@@ -15,4 +15,4 @@ module load ansysEM/17.2
 ansysedt -distributed -machinelist num=4 -monitor -waitforlicense -ng -batchextract ~/expsp_hfss.py -batchsolve $1
 
 # Sends email after simulation is complete.
-# echo | mail -s "HFSS Done: $1 " "$USER@psemi.com"
+# echo | mail -s "HFSS Done: $1 " "$USER@company.com"
